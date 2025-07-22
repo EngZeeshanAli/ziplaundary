@@ -1,0 +1,48 @@
+
+/* font families */
+@font-face {
+    font-family: 'lato';
+    src: url("../fonts/Lato-Bold.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lato-regular{
+    font-family: 'lato', serif !important;
+}
+
+/* end  font families */
+
+/* font Sizes*/
+.f-16{
+    font-size: 16px !important;
+}
+.f-18{
+    font-size: 18px !important;
+}
+.f-72{
+    font-size: 72px !important;
+}
+/* end font Sizes*/
+
+
+
+
+
+.app-bg-primary-color {
+    background: #EFF7FF !important;
+}
+
+.app-btn {
+    border-radius: 100px !important;
+    background: #139EE3 !important;
+    padding: 16px 30px;
+}
+
+
+.app-btn-white {
+    border-radius: 100px !important;
+    background: #f5f5f5 !important;
+    padding: 16px 30px;
+    color:#139EE3;
+}
