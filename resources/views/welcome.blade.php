@@ -86,19 +86,72 @@
 
 <div class="container-fluid app-bg-primary-color py-5 mt-5">
     <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <span class="mt-3 lato-regular fw-bold f-48">Why Choose ZipMyLaundry?</span>
-                <span class="lato-regular f-16 text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit lorem sagittis, proin ut lectus sed ut. Enim egestas enim id duis.</span>
-                <div class="row">
-                    <img class="icon-40 col-2" src="{{ asset('images/calendar.png') }}"/>
-                    <div class="">
-                        <p class="mt-3 lato-regular fw-bold f-18">Why Choose ZipMyLaundry?</p>
-                        <span class="lato-regular f-16 text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit lorem sagittis, proin ut lectus sed ut. Enim egestas enim id duis.</span>
+        <div class="row align-items-center">
+            <!-- Left Column -->
+            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                <h2 class="mt-3 lato-regular fw-bold f-48">Why Choose ZipMyLaundry?</h2>
+                <p class="lato-regular f-16 text-gray">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit lorem sagittis, proin ut lectus sed ut.
+                    Enim egestas enim id duis.
+                </p>
+
+                <!-- Feature Item -->
+                <div class="d-flex align-items-start mt-4">
+                    <img src="{{ asset('images/calendar.png') }}" class="icon-40 me-3" alt="Calendar Icon"/>
+                    <div>
+                        <p class="mb-1 lato-regular fw-bold f-18">Fast 24–36hr turnaround</p>
+                        <span class="lato-regular f-16 text-gray">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit lorem sagittis, proin ut lectus sed ut.
+                        </span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mt-4">
+                    <img src="{{ asset('images/calendar.png') }}" class="icon-40 me-3" alt="Calendar Icon"/>
+                    <div>
+                        <p class="mb-1 lato-regular fw-bold f-18">Optional same-day express</p>
+                        <span class="lato-regular f-16 text-gray">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mt-4">
+                    <img src="{{ asset('images/calendar.png') }}" class="icon-40 me-3" alt="Calendar Icon"/>
+                    <div>
+                        <p class="mb-1 lato-regular fw-bold f-18">Eco-friendly detergent upgrade</p>
+                        <span class="lato-regular f-16 text-gray">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit lorem sagittis, proin ut lectus sed ut.
+                        </span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mt-4">
+                    <img src="{{ asset('images/calendar.png') }}" class="icon-40 me-3" alt="Calendar Icon"/>
+                    <div>
+                        <p class="mb-1 lato-regular fw-bold f-18">No hidden fees, ever</p>
+                        <span class="lato-regular f-16 text-gray">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </span>
                     </div>
                 </div>
             </div>
+
+            <!-- Right Column -->
+            <div class="col-lg-6 col-md-12 text-center">
+                <img class="img-fluid" src="{{ asset('images/girl_laundry.png') }}" alt="Girl with Laundry"/>
+            </div>
         </div>
+    </div>
+</div>
+
+<div class="container">
+    <img src="{{ asset('images/want_to_see.png') }}" class="img-fluid" alt="Calendar Icon"/>
+</div>
+
+<div class="container">
+    <div class="col-lg-6 mt-5">
+        <h1 class="mt-5 lato-regular text-black f-48 fw-bold">Weekly Laundry Plans</h1>
+        <span class="lato-regular f-18 text-gray">
+                Save time and money with flexible subscriptions:
+            </span>
     </div>
 </div>
 
