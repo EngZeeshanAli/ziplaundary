@@ -154,7 +154,7 @@
             </span>
     </div>
 
-    <section class="mt-5">
+    <section class="mt-5 mb-5">
         <div class="row justify-content-center">
             <!-- Basic Plan -->
             <div class="col-md-5 mb-4">
@@ -196,10 +196,10 @@
 
         </div>
     </section>
-
-
 </div>
 
+
+@include("widget.footer")
 
 @include('widget.footer_required')
 </body>
