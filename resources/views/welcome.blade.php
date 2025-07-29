@@ -147,12 +147,57 @@
 </div>
 
 <div class="container">
-    <div class="col-lg-6 mt-5">
+    <div class="col-lg-6">
         <h1 class="mt-5 lato-regular text-black f-48 fw-bold">Weekly Laundry Plans</h1>
         <span class="lato-regular f-18 text-gray">
                 Save time and money with flexible subscriptions:
             </span>
     </div>
+
+    <section class="mt-5">
+        <div class="row justify-content-center">
+            <!-- Basic Plan -->
+            <div class="col-md-5 mb-4">
+                <div class="card h-100 shadow border-0 rounded-4">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Basic Plan</h5>
+                        <p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 class="fw-bold">£49 <span class="fs-6 text-muted">/ 4 Bags/month</span></h3>
+                        <hr>
+                        <ul class="list-unstyled">
+
+                            <li><i class="bi bi-check-circle text-primary me-2"></i>Free delivery</li>
+                            <li><i class="bi bi-check-circle text-primary me-2"></i>Priority booking</li>
+                            <li><i class="bi bi-check-circle text-primary me-2"></i>Cancel anytime</li>
+                        </ul>
+                        <button class="btn app-bg-secondary-color text-white w-100 rounded-pill mt-3">Choose a Plan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="col-md-5 mb-4">
+                <div class="card h-100 shadow border-0 rounded-4 app-bg-secondary-color text-white">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Premium Plan</h5>
+                        <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 class="fw-bold">£89 <span class="fs-6 text-white-50">/ 8 Bags/month</span></h3>
+                        <hr class="border-light">
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle me-2"></i>Free delivery</li>
+                            <li><i class="bi bi-check-circle me-2"></i>Priority booking</li>
+                            <li><i class="bi bi-check-circle me-2"></i>Cancel anytime</li>
+                        </ul>
+                        <button class="btn btn-light w-100 rounded-pill mt-3">Choose a Plan</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
 </div>
 
 

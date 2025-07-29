@@ -6,6 +6,8 @@
     font-style: normal;
 }
 
+
+
 .lato-regular {
     font-family: 'lato', serif !important;
 }
@@ -39,6 +41,11 @@
 
 .app-bg-primary-color {
     background: #EFF7FF !important;
+}
+
+.app-bg-secondary-color{
+    background: #139EE3 !important;
+
 }
 
 .app-btn {
