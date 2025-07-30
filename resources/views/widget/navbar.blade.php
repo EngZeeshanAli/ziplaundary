@@ -14,8 +14,15 @@
         <!-- Nav Links -->
         <div class="collapse navbar-collapse" id="mainNavbar">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link lato-regular f-16 active p-3" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link lato-regular f-16 p-3" href="#">About Us</a></li>
+                <li class="nav-item">
+                    <a class="nav-link lato-regular f-16 p-3 {{ request()->is('/') ? 'active' : '' }}"
+                       href="{{ url('/') }}">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item"><a class="nav-link lato-regular f-16 p-3 {{ request()->is('about-us') ? 'active' : '' }}"
+                                        href="{{ url('/about-us') }}">
+                        About Us</a></li>
                 <li class="nav-item"><a class="nav-link lato-regular f-16 p-3" href="#">Book Now</a></li>
                 <li class="nav-item"><a class="nav-link lato-regular f-16 p-3" href="#">Pricing</a></li>
                 <li class="nav-item"><a class="nav-link lato-regular f-16 p-3" href="#">Contact Us</a></li>
