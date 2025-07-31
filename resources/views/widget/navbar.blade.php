@@ -20,12 +20,22 @@
                         Home
                     </a>
                 </li>
-                <li class="nav-item"><a class="nav-link lato-regular f-16 p-3 {{ request()->is('about-us') ? 'active' : '' }}"
-                                        href="{{ url('/about-us') }}">
+                <li class="nav-item"><a
+                        class="nav-link lato-regular f-16 p-3 {{ request()->is('about-us') ? 'active' : '' }}"
+                        href="{{ url('/about-us') }}">
                         About Us</a></li>
-                <li class="nav-item"><a class="nav-link lato-regular f-16 p-3" href="#">Book Now</a></li>
-                <li class="nav-item"><a class="nav-link lato-regular f-16 p-3" href="#">Pricing</a></li>
-                <li class="nav-item"><a class="nav-link lato-regular f-16 p-3" href="#">Contact Us</a></li>
+                <li class="nav-item"><a
+                        class="nav-link lato-regular f-16 p-3 {{ request()->is('book-now') ? 'active' : '' }}"
+                        href="{{ url('/book-now') }}">
+                        Book Now</a></li>
+                <li class="nav-item"><a
+                        class="nav-link lato-regular f-16 p-3 {{ request()->is('pricing') ? 'active' : '' }}"
+                        href="{{ url('/pricing') }}">
+                        Pricing</a></li>
+                <li class="nav-item"><a
+                        class="nav-link lato-regular f-16 p-3 {{ request()->is('contact-us') ? 'active' : '' }}"
+                        href="{{ url('/contact-us') }}">
+                        Contact Us</a></li>
             </ul>
             <!-- CTA Button -->
             <a href="#" class="btn btn-primary app-btn px-4">Get the App</a>

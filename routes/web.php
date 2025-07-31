@@ -1,6 +1,9 @@
 <?php
 
 use App\Http\Controllers\AboutUsController;
+use App\Http\Controllers\BookNowController;
+use App\Http\Controllers\ContactUsController;
+use App\Http\Controllers\PricingController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +21,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/about-us', [AboutUsController::class,'index']);
+Route::get('/about-us', [AboutUsController::class, 'index']);
+Route::get('/contact-us', [ContactUsController::class, 'index']);
+Route::get('/book-now', [BookNowController::class, 'index']);
+Route::get('/pricing', [PricingController::class, 'index']);
 
 
