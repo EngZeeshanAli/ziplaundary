@@ -83,11 +83,11 @@
 <div class="container py-5">
     <div class="row">
         <!-- Left Column: Contact Info -->
-        <!-- Left Column: Contact Info -->
         <div class="col-md-5 mb-4">
-            <h3 class="lato-regular fw-bold f-24">Have Questions?<br>Get in Touch!</h3>
-            <p class="text-gray f-16">It is a long established fact that a reader will be distracted by the readable
-                content of a page when looking at its layout.</p>
+            <h3 class="lato-regular fw-bold f-24">Have Questions?<br>We’re Here to Help!</h3>
+            <p class="text-gray f-16">
+                Whether you're curious about our services, pricing, or just need help booking a pickup — our friendly team is ready to assist you.
+            </p>
 
             <!-- Email -->
             <div class="d-flex align-items-start mb-3">
@@ -109,48 +109,55 @@
 
             <!-- Social Icons -->
             <div class="d-flex align-items-center gap-3 mt-3">
-                <img src="{{ asset('images/social.png') }}" alt="Phone Icon" class="icon-40 me-3">
+                <img src="{{ asset('images/social.png') }}" alt="Social Icon" class="icon-40 me-3">
                 <div>
-
-                    <a href="#"><i class="bi bi-facebook text-black f-24 "></i></a>
+                    <a href="#"><i class="bi bi-facebook text-black f-24"></i></a>
                     <a href="#"><i class="bi bi-instagram text-black f-24 mx-2"></i></a>
                     <a href="#"><i class="bi bi-twitter text-black f-24"></i></a>
                 </div>
             </div>
-
         </div>
+
 
 
         <!-- Right Column: Contact Form -->
         <div class="col-md-7">
-            <form>
+            <form action="{{ route('contact.submit') }}" method="POST">
+                @csrf
                 <div class="row g-3">
                     <div class="col-md-6">
-                        <input type="text" class="form-control f-16" placeholder="Name">
+                        <input type="text" name="name" class="form-control f-16" placeholder="Name" required>
                     </div>
                     <div class="col-md-6">
-                        <input type="email" class="form-control f-16" placeholder="Email">
+                        <input type="email" name="email" class="form-control f-16" placeholder="Email" required>
                     </div>
                     <div class="col-12">
-                        <input type="tel" class="form-control f-16" placeholder="Phone Number">
+                        <input type="tel" name="phone" class="form-control f-16" placeholder="Phone Number" required>
                     </div>
                     <div class="col-12">
-                        <textarea class="form-control f-16" rows="4" placeholder="Message"></textarea>
+                        <textarea name="message" class="form-control f-16" rows="4" placeholder="Message" required></textarea>
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn app-btn text-white w-100 f-16">Send Your Message</button>
                     </div>
                 </div>
             </form>
+
+            @if(session('success'))
+                <div class="alert alert-success mt-3">{{ session('success') }}</div>
+            @endif
+
         </div>
     </div>
 </div>
 
 <!-- Service Area Section -->
 <div class="container text-start py-5">
-    <h4 class="lato-regular fw-bold f-24">We currently serve Leicester City (LE1–LE5)</h4>
-    <p class="text-gray f-16 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit lorem sagittis, pretium
-        luctus sed. Etiam egestas urna elit.</p>
+    <h4 class="lato-regular fw-bold f-24">Now Serving Leicester City (LE1 – LE5)</h4>
+    <p class="text-gray f-16 mb-4">
+        We proudly offer reliable pickup and delivery laundry services across Leicester’s central postcodes — from LE1 to LE5. Fast, convenient, and right at your doorstep.
+    </p>
+
 
     <!-- Google Map Embed -->
     <div class="ratio ratio-16x9">

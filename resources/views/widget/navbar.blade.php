@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light app-bg-primary-color ">
     <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand d-flex align-items-center" href="#">
+        <a class="navbar-brand d-flex align-items-center" href="{{url('/')}}">
             <img src="{{ asset('images/logo.png') }}" alt="Logo" width="150">
         </a>
 
@@ -38,7 +38,7 @@
                         Contact Us</a></li>
             </ul>
             <!-- CTA Button -->
-            <a href="#" class="btn btn-primary app-btn px-4">Get the App</a>
+            <a href="{{ url('/book-now') }}" class="btn btn-primary app-btn px-4">Book Now</a>
         </div>
     </div>
 </nav>

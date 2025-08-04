@@ -25,5 +25,7 @@ Route::get('/about-us', [AboutUsController::class, 'index']);
 Route::get('/contact-us', [ContactUsController::class, 'index']);
 Route::get('/book-now', [BookNowController::class, 'index']);
 Route::get('/pricing', [PricingController::class, 'index']);
+Route::post('/book-now', [BookNowController::class, 'store'])->name('booking.submit');
+Route::post('/contact', [ContactUsController::class, 'submit'])->name('contact.submit');
 
 

@@ -73,22 +73,29 @@
         </div>
 
         <!-- Right Side Content -->
+        <!-- Right Side Content -->
         <div class="col-md-6 px-4">
-            <h2 class="f-48 fw-bold">Pricing & Services</h2>
-            <p class="text-gray mb-4 f-18">Optional Add-On</p>
+            <h2 class="f-48 fw-bold">Affordable Pricing & Thoughtful Add-Ons</h2>
+            <p class="text-gray mb-4 f-18">Customize your laundry experience with these optional extras:</p>
             <ul class="list-unstyled f-18 mb-4">
-                <li class="mb-2"><img src="{{ asset('images/check-icon.png') }}" class="me-2 icon-20" alt="Checked"/>
-                    Hanger service
+                <li class="mb-2">
+                    <img src="{{ asset('images/check-icon.png') }}" class="me-2 icon-20" alt="Checked"/>
+                    Hanger Service – Clothes returned wrinkle-free and ready to wear
                 </li>
-                <li class="mb-2"><img src="{{ asset('images/check-icon.png') }}" class="me-2 icon-20" alt="Checked"/>
-                    Fragrance-free wash
+                <li class="mb-2">
+                    <img src="{{ asset('images/check-icon.png') }}" class="me-2 icon-20" alt="Checked"/>
+                    Fragrance-Free Wash – Perfect for sensitive skin or allergies
                 </li>
-                <li class="mb-2"><img src="{{ asset('images/check-icon.png') }}" class="me-2 icon-20" alt="Checked"/>
-                    Delicate care
+                <li class="mb-2">
+                    <img src="{{ asset('images/check-icon.png') }}" class="me-2 icon-20" alt="Checked"/>
+                    Delicate Care – Gentle cycle and special handling for your finest fabrics
                 </li>
             </ul>
+            <a href="{{ url('/book-now') }}">
             <button class="btn app-btn f-18 text-white lato-regular">Book a Pickup</button>
+            </a>
         </div>
+
 
     </div>
 </div>
