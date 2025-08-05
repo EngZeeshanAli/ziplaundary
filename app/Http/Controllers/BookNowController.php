@@ -38,6 +38,8 @@ class BookNowController extends Controller
             Mail::to($booking->email)->send(new BookingConfirmation($booking));
         }
 
+        Mail::to("support@zipmylaundry.co.uk")->send(new BookingConfirmation($booking));
+
         return redirect()->back()->with('success', 'Booking Confirmed!');
     }
 
