@@ -9,7 +9,7 @@
                         <img src="{{ asset('images/logo.png') }}" alt="ZipMyLaundry Logo" class="mb-3"
                              style="max-width: 150px;">
                         <p class="mb-2 lato-regular">
-                            <i class="bi bi-envelope me-2"></i> ZipmyLundary@gmail.com
+                            <i class="bi bi-envelope me-2"></i> Support@zipmylaundry.co.uk
                         </p>
                         <p class="mb-0">
                             <i class="bi bi-geo-alt me-2"></i> 2464 Royal Ln. Mesa, New Jersey 45463
@@ -56,9 +56,11 @@
                     class="d-flex justify-content-between align-items-center pt-4 mt-4 border-top flex-column flex-md-row">
                     <p class="mb-2 mb-md-0">&copy;2025 Clean All Rights are reserved</p>
                     <div>
-                        <a href="#" class="text-dark me-3"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="text-dark me-3"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="text-dark"><i class="bi bi-x"></i></a>
+                        <a href="https://www.facebook.com/share/1CJM9jKCEi/?mibextid=wwXIfr" target="_blank"
+                           class="text-dark me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/zipmylaundry?igsh=MWs3cTU4MXJtMHpkbA%3D%3D&utm_source=qr"
+                           target="_blank" class="text-dark me-3"><i class="bi bi-instagram"></i></a>
+                        <a class="text-dark"><i class="bi bi-x"></i></a>
                     </div>
                 </div>
             </div>

@@ -23,7 +23,7 @@ class ContactUsController extends Controller
         ]);
 
         // Send email
-        Mail::to("zeshan.lhr.pk@gmail.com")->send(new ContactFormMail($validated));
+        Mail::to('support@zipmylaundry.co.uk')->send(new ContactFormMail($validated));
 
         return redirect()->back()->with('success', 'Thanks for contacting us! We’ll be in touch shortly.');
     }

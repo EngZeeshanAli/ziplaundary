@@ -48,8 +48,11 @@
             <!-- Contact Boxes -->
             <div class="col-12 col-md-6">
                 <div class="row g-3">
+                    <div class="col-12 col-sm-6 d-flex justify-content-center"></div>
                     <!-- Whatsapp Box -->
                     <div class="col-12 col-sm-6 d-flex justify-content-center">
+                        <a href="https://wa.me/447520653811" target="_blank" class="text-decoration-none text-white">
+
                         <div class="px-3 py-3 app-bg-secondary-color text-white rounded w-100 d-flex align-items-center">
                             <img src="{{ asset('images/whatsapp.png') }}" alt="Whatsapp Logo" style="max-width: 50px;" class="me-3">
                             <div>
@@ -57,17 +60,18 @@
                                 <p class="lato-regular fw-bold mb-0">+44 1234 567890</p>
                             </div>
                         </div>
+                        </a>
                     </div>
 
                     <!-- Live Support Box -->
-                    <div class="col-12 col-sm-6 d-flex justify-content-center">
-                        <div class="px-3 py-3 bg-dark text-white rounded w-100 d-flex align-items-center">
-                            <img src="{{ asset('images/support.png') }}" alt="Support Logo" style="max-width: 50px;" class="me-3">
-                            <div>
-                                <h3 class="lato-regular fw-bold mb-0">Live Support</h3>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="col-12 col-sm-6 d-flex justify-content-center">--}}
+{{--                        <div class="px-3 py-3 bg-dark text-white rounded w-100 d-flex align-items-center">--}}
+{{--                            <img src="{{ asset('images/support.png') }}" alt="Support Logo" style="max-width: 50px;" class="me-3">--}}
+{{--                            <div>--}}
+{{--                                <h3 class="lato-regular fw-bold mb-0">Live Support</h3>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
             </div>
         </div>
